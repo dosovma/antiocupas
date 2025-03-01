@@ -1,0 +1,9 @@
+name: world_of_wisdom
+
+services:
+  contract:
+    build: contract/
+    command: go run ./cmd/main.go
+  register:
+    build: register/
+    command: ./cmd/main.go
